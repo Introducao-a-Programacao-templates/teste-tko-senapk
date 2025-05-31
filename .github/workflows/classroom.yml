@@ -19,7 +19,7 @@ jobs:
               with:
                   test-name: Validação Tarefa Strings
                   setup-command: sudo apt update && sudo apt install -y pipx && pipx install git+https://github.com/senapk/tko.git@teste
-                  command: npm test
+                  command: NO_COLOR=1 npm test
                   timeout: 10
                   max-score: 100
             - name: Autograding Reporter
