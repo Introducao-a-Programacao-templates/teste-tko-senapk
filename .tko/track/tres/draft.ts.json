@@ -90,7 +90,11 @@
         },
         {
             "label": "2025-05-31_17-22-29",
-            "content": "const input = () => \"\"; // MODO_TESTE\nexport {};\n\nfunction main() {\n    \n    let a = +input()\n    let b = +input()\n    let c = +input()\n    console.log(a + b + c)\n}\nmain();\n"
+            "content": "@@ -61,16 +61,20 @@\n ain() %7B%0A\n+    \n %0A    let\n@@ -150,16 +150,20 @@\n og(a + b\n+ + c\n )%0A%7D%0Amain\n"
+        },
+        {
+            "label": "2025-05-31_17-36-13",
+            "content": "const input = () => \"\"; // MODO_TESTE\nexport {};\n\nfunction main() {\n\n    let a = +input()\n    let b = +input()\n    let c = +input()\n    console.log(a + b)\n}\nmain();\n"
         }
     ]
 }

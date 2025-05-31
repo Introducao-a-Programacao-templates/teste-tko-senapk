@@ -22,6 +22,6 @@ function main() {
   let a = +input();
   let b = +input();
   let c = +input();
-  console.log(a + b + c);
+  console.log(a + b);
 }
 main();
