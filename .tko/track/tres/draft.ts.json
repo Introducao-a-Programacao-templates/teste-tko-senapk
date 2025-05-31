@@ -1,0 +1,12 @@
+{
+    "patches": [
+        {
+            "label": "2025-05-31_15-48-30",
+            "content": "@@ -65,71 +65,8 @@\n ) %7B%0A\n-    let a = +input()%0A    let b = +input()%0A    let c = +input()%0A\n     \n@@ -81,18 +81,18 @@\n log(\n-a + b + c)\n+%22qxcode%22);\n %0A%7D%0Am\n"
+        },
+        {
+            "label": "2025-05-31_15-49-10",
+            "content": "const input = () => \"\"; // MODO_TESTE\nexport {};\n\nfunction main() {\n    let a = +input()\n    let b = +input()\n    let c = +input()\n    console.log(a + b + c)\n}\nmain();\n"
+        }
+    ]
+}
