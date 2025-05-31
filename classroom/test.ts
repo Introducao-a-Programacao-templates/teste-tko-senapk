@@ -34,7 +34,7 @@ function show_diff(content_a: string, content_b: string) {
     save_file(file_a, content_a);
     save_file(file_b, content_b);
     console.log(
-        execSync(`tko -m -w 140 diff -s --path ${file_a} ${file_b}`).toString()
+        execSync(`NO_COLOR=1 tko -m -w 140 diff -s --path ${file_a} ${file_b}`).toString()
     );
     remove_file(file_a);
     remove_file(file_b);
@@ -48,7 +48,7 @@ function run_tko(folder: string, ext: string) {
         total += 1;
         // testa primeiro se roda
         const output = execSync(
-            `tko -m -w 140 run -s ${folder}/cases.tio ${folder}/draft.${ext}`
+            `NO_COLOR=1 tko -m -w 140 run -s ${folder}/cases.tio ${folder}/draft.${ext}`
         ).toString();
         let lines = output.split('\n');
         if (output.split('\n').length === 3) {
