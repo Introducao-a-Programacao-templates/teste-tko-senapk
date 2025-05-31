@@ -34,7 +34,7 @@ function show_diff(content_a: string, content_b: string) {
     save_file(file_a, content_a);
     save_file(file_b, content_b);
     console.log(
-        execSync(`tko -w 140 diff -s --path ${file_a} ${file_b}`).toString()
+        execSync(`tko -w 140 diff -d --path ${file_a} ${file_b}`).toString()
     );
     remove_file(file_a);
     remove_file(file_b);
@@ -43,12 +43,12 @@ function show_diff(content_a: string, content_b: string) {
 
 // Teste 5: Media
 
-function run_tko(folder: string, ext: string) {
+function run_tko(folder: string) {
     try {
         total += 1;
         // testa primeiro se roda
         const output = execSync(
-            `tko -w 140 run -s ${folder}/cases.tio ${folder}/draft.${ext}`
+            `tko -w 140 run -d --eval ${folder}`
         ).toString();
         let lines = output.split('\n');
         if (output.split('\n').length === 3) {
@@ -83,15 +83,13 @@ function run_tko(folder: string, ext: string) {
 const root = 'src';
 const entries = readdirSync(root);
 
-// Filtra apenas subpastas e executa a função
-// entries.forEach(entry => {
-//   const fullPath = join(root, entry);
-//   if (statSync(fullPath).isDirectory()) {
-//     run_tko(fullPath);
-//   }
-// });
-run_tko("src/tres", "ts");
-run_tko("src/trespy", "py");
+entries.forEach(entry => {
+  const fullPath = join(root, entry);
+  if (statSync(fullPath).isDirectory()) {
+    run_tko(fullPath);
+  }
+});
+
 
 // Resultado final
 console.log(

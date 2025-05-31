@@ -12,7 +12,7 @@ flags:
   percent: 0
   admin: 0
   skills: 0
-  graph: 2
+  graph: 1
 new_items: []
 lang: ts
 index: tres
