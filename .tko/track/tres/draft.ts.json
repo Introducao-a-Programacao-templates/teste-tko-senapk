@@ -6,7 +6,23 @@
         },
         {
             "label": "2025-05-31_15-49-10",
-            "content": "const input = () => \"\"; // MODO_TESTE\nexport {};\n\nfunction main() {\n    let a = +input()\n    let b = +input()\n    let c = +input()\n    console.log(a + b + c)\n}\nmain();\n"
+            "content": "@@ -153,15 +153,8 @@\n  + c\n- + '%5Cn'\n )%0A%7D%0A\n"
+        },
+        {
+            "label": "2025-05-31_14-02-40",
+            "content": "@@ -154,17 +154,17 @@\n + c + '%5C\n-r\n+n\n ')%0A%7D%0Amai\n"
+        },
+        {
+            "label": "2025-05-31_14-02-49",
+            "content": "@@ -155,15 +155,8 @@\n  c +\n- '%5Cr' +\n  '%5Cr\n"
+        },
+        {
+            "label": "2025-05-31_14-03-01",
+            "content": "@@ -151,16 +151,23 @@\n  b + c +\n+ '%5Cr' +\n  '%5Cr')%0A%7D\n"
+        },
+        {
+            "label": "2025-05-31_14-07-55",
+            "content": "const input = () => \"\"; // MODO_TESTE\nexport {};\n\nfunction main() {\n    let a = +input()\n    let b = +input()\n    let c = +input()\n    console.log(a + b + c + '\\r')\n}\nmain();\n"
         }
     ]
 }

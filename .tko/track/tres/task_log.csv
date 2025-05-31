@@ -1,0 +1,15 @@
+time:2025-05-31 15:48:28, type:DOWN, key:tres
+time:2025-05-31 15:48:29, type:PICK, key:tres, e:0
+time:2025-05-31 15:48:30, type:TEST, key:tres, c:0, e:0
+time:2025-05-31 15:49:10, type:TEST, key:tres, c:100, e:0
+time:2025-05-31 15:49:22, type:BACK, key:tres, e:0
+time:2025-05-31 15:50:12, type:TEST, key:tres, c:100, e:1
+time:2025-05-31 14:02:27, type:TEST, key:tres, c:100
+time:2025-05-31 14:02:40, type:TEST, key:tres, c:0
+time:2025-05-31 14:02:40, type:SIZE, key:tres, att:1, lines:10
+time:2025-05-31 14:02:49, type:TEST, key:tres, c:100, att:1, lines:10
+time:2025-05-31 14:02:49, type:SIZE, key:tres, att:2, lines:10
+time:2025-05-31 14:03:01, type:TEST, key:tres, c:0, att:2, lines:10
+time:2025-05-31 14:03:01, type:SIZE, key:tres, att:3, lines:10
+time:2025-05-31 14:07:55, type:TEST, key:tres, c:100, att:3, lines:10
+time:2025-05-31 14:07:55, type:SIZE, key:tres, att:4, lines:10
