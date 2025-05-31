@@ -20,3 +20,19 @@ time:2025-05-31 14:46:35, type:SIZE, key:tres, att:6, lines:11
 time:2025-05-31 14:47:15, type:TEST, key:tres, c:0, att:6, lines:11
 time:2025-05-31 14:47:39, type:TEST, key:tres, c:100, att:6, lines:11
 time:2025-05-31 14:47:39, type:SIZE, key:tres, att:7, lines:11
+time:2025-05-31 14:49:30, type:TEST, key:tres, c:100, att:7, lines:11
+time:2025-05-31 14:49:42, type:TEST, key:tres, c:100, att:7, lines:11
+time:2025-05-31 14:49:42, type:SIZE, key:tres, att:8, lines:11
+time:2025-05-31 14:49:57, type:TEST, key:tres, c:0, att:8, lines:11
+time:2025-05-31 14:49:57, type:SIZE, key:tres, att:9, lines:11
+time:2025-05-31 14:50:16, type:TEST, key:tres, c:0, att:9, lines:11
+time:2025-05-31 14:50:16, type:SIZE, key:tres, att:10, lines:11
+time:2025-05-31 14:51:04, type:TEST, key:tres, c:0, att:10, lines:11
+time:2025-05-31 14:52:52, type:TEST, key:tres, c:0, att:10, lines:11
+time:2025-05-31 14:53:14, type:TEST, key:tres, c:0, att:10, lines:11
+time:2025-05-31 14:53:14, type:SIZE, key:tres, att:11, lines:11
+time:2025-05-31 14:53:44, type:TEST, key:tres, c:0, att:11, lines:11
+time:2025-05-31 14:53:44, type:SIZE, key:tres, att:12, lines:11
+time:2025-05-31 14:54:02, type:TEST, key:tres, c:0, att:12, lines:11
+time:2025-05-31 14:54:02, type:SIZE, key:tres, att:13, lines:10
+time:2025-05-31 14:54:32, type:TEST, key:tres, c:100, att:13, lines:10

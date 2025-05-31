@@ -34,7 +34,31 @@
         },
         {
             "label": "2025-05-31_14-47-39",
-            "content": "const input = () => \"\"; // MODO_TESTE\nexport {};\n\nfunction main() {\n    let a = +input()\n    let b = +input()\n    let c = +input()\n    console.log(a + b + c)\n\n}\nmain();\n"
+            "content": "@@ -153,15 +153,8 @@\n  + c\n- + '%5Cr'\n )%0A%0A%7D\n"
+        },
+        {
+            "label": "2025-05-31_14-49-42",
+            "content": "@@ -144,15 +144,8 @@\n log(\n-'%5Cr' + \n a + \n@@ -149,16 +149,23 @@\n  + b + c\n+ + '%5Cr'\n )%0A%0A%7D%0Amai\n"
+        },
+        {
+            "label": "2025-05-31_14-49-57",
+            "content": "@@ -147,17 +147,16 @@\n ('%5Cr' + \n-(\n a + b + \n@@ -157,17 +157,16 @@\n + b + c)\n-)\n %0A%0A%7D%0Amain\n"
+        },
+        {
+            "label": "2025-05-31_14-50-16",
+            "content": "@@ -140,16 +140,23 @@\n ole.log(\n+'%5Cr' + \n (a + b +\n@@ -162,15 +162,8 @@\n + c)\n- + '%5Cr'\n )%0A%0A%7D\n"
+        },
+        {
+            "label": "2025-05-31_14-53-14",
+            "content": "@@ -151,16 +151,23 @@\n + b + c)\n+ + '%5Cr'\n )%0A%0A%7D%0Amai\n"
+        },
+        {
+            "label": "2025-05-31_14-53-44",
+            "content": "@@ -140,16 +140,17 @@\n ole.log(\n+(\n a + b + \n@@ -151,16 +151,18 @@\n + b + c)\n+)%0A\n %0A%7D%0Amain(\n"
+        },
+        {
+            "label": "2025-05-31_14-54-02",
+            "content": "const input = () => \"\"; // MODO_TESTE\nexport {};\n\nfunction main() {\n    let a = +input()\n    let b = +input()\n    let c = +input()\n    console.log(a + b + c)\n}\nmain();\n"
         }
     ]
 }
