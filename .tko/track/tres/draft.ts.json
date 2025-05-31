@@ -58,7 +58,15 @@
         },
         {
             "label": "2025-05-31_14-54-02",
-            "content": "const input = () => \"\"; // MODO_TESTE\nexport {};\n\nfunction main() {\n    let a = +input()\n    let b = +input()\n    let c = +input()\n    console.log(a + b + c)\n}\nmain();\n"
+            "content": "@@ -128,13 +128,8 @@\n t()%0A\n-    %0A\n     \n"
+        },
+        {
+            "label": "2025-05-31_14-59-20",
+            "content": "@@ -124,16 +124,20 @@\n input()%0A\n+    \n %0A    con\n@@ -150,16 +150,20 @@\n og(a + b\n+ + c\n )%0A%7D%0Amain\n"
+        },
+        {
+            "label": "2025-05-31_14-59-30",
+            "content": "const input = () => \"\"; // MODO_TESTE\nexport {};\n\nfunction main() {\n    let a = +input()\n    let b = +input()\n    let c = +input()\n\n    console.log(a + b)\n}\nmain();\n"
         }
     ]
 }
