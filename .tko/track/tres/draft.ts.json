@@ -82,7 +82,15 @@
         },
         {
             "label": "2025-05-31_16-32-41",
-            "content": "const input = () => \"\"; // MODO_TESTE\nexport {};\n\nfunction main() {\n    let a = +input()\n    let b = +input()\n    let c = +input()\n\n    console.log(a + b)\n}\nmain();\n"
+            "content": "@@ -120,24 +120,25 @@\n  = +input()%0A\n+%0A\n     console.\n@@ -150,12 +150,8 @@\n  + b\n- + c\n )%0A%7D%0A\n"
+        },
+        {
+            "label": "2025-05-31_17-17-15",
+            "content": "@@ -65,13 +65,8 @@\n ) %7B%0A\n-    %0A\n     \n"
+        },
+        {
+            "label": "2025-05-31_17-22-29",
+            "content": "const input = () => \"\"; // MODO_TESTE\nexport {};\n\nfunction main() {\n    \n    let a = +input()\n    let b = +input()\n    let c = +input()\n    console.log(a + b + c)\n}\nmain();\n"
         }
     ]
 }

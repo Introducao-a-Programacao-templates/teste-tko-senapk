@@ -51,3 +51,7 @@ time:2025-05-31 16:32:29, type:SIZE, key:tres, att:18, lines:11
 time:2025-05-31 16:32:41, type:TEST, key:tres, c:0, att:18, lines:11
 time:2025-05-31 16:32:41, type:SIZE, key:tres, att:19, lines:11
 time:2025-05-31 16:32:59, type:TEST, key:tres, c:0, att:19, lines:11
+time:2025-05-31 17:17:15, type:TEST, key:tres, c:100, e:4, att:19, lines:11
+time:2025-05-31 17:17:15, type:SIZE, key:tres, e:4, att:20, lines:10
+time:2025-05-31 17:22:29, type:TEST, key:tres, c:100, e:9, att:20, lines:10
+time:2025-05-31 17:22:29, type:SIZE, key:tres, e:9, att:21, lines:11

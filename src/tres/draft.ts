@@ -2,6 +2,7 @@ const input = () => ""; // MODO_TESTE
 export {};
 
 function main() {
+    
     let a = +input()
     let b = +input()
     let c = +input()
