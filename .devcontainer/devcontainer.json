@@ -1,6 +1,13 @@
-// See https://containers.dev/implementors/json_reference/ for configuration reference
 {
-    "name": "Template with Installation Script",
+    "name": "Python with Node.js & pipx",
     "image": "mcr.microsoft.com/devcontainers/python:3.12",
-    "postCreateCommand": "sudo apt update"
+    "features": {
+        "ghcr.io/devcontainers/features/node:1": {
+            "version": "lts" // ou uma versão específica como "20"
+        },
+        "ghcr.io/devcontainers/features/python:1": {
+            "installPipx": true
+        }
+    },
+    "postCreateCommand": "sudo apt update" // Seu comando original
 }
