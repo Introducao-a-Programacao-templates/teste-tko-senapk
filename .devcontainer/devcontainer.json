@@ -1,9 +1,7 @@
 // See https://containers.dev/implementors/json_reference/ for configuration reference
 {
-    "name": "Template de container para JS | React | Node",
-    "build": {
-        "dockerfile": "Dockerfile"
-    },
+  "name": "Template with Installation Script",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
     // Configurar propriedades específicas da ferramenta. Mais informações: https://containers.dev/supporting.
     "customizations": {
         // Configura propriedades específicas para o VS Code.
