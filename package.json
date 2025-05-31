@@ -7,8 +7,8 @@
         "@eslint/js": "^9.26.0",
         "@types/node": "^22.15.17",
         "@types/readline-sync": "^1.4.8",
+        "esbuild": "^0.21.5",
         "eslint": "^9.26.0",
-        "esbuild": "^0.21.0",
         "globals": "^16.1.0",
         "readline-sync": "^1.4.10",
         "tsx": "^4.19.4",
@@ -23,7 +23,6 @@
         "classtest": "npx tsx classroom/test.ts"
     },
     "dependencies": {
-        "diff": "^8.0.2",
-        "esbuild": "^0.25.5"
+        "diff": "^8.0.2"
     }
 }
