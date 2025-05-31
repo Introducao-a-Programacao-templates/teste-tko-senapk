@@ -1,0 +1,8 @@
+{
+    "patches": [
+        {
+            "label": "2025-05-31_21-40-33",
+            "content": "a = int(input())\nb = int(input())\nc = int(input())\n\nprint(a + b + c)\n"
+        }
+    ]
+}

@@ -5,6 +5,6 @@ function main() {
     let a = +input()
     let b = +input()
     let c = +input()
-    console.log(a + b)
+    console.log(a + b + c)
 }
 main();
