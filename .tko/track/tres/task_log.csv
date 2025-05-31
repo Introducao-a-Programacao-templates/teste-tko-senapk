@@ -13,3 +13,10 @@ time:2025-05-31 14:03:01, type:TEST, key:tres, c:0, att:2, lines:10
 time:2025-05-31 14:03:01, type:SIZE, key:tres, att:3, lines:10
 time:2025-05-31 14:07:55, type:TEST, key:tres, c:100, att:3, lines:10
 time:2025-05-31 14:07:55, type:SIZE, key:tres, att:4, lines:10
+time:2025-05-31 14:46:19, type:TEST, key:tres, c:100, att:4, lines:10
+time:2025-05-31 14:46:19, type:SIZE, key:tres, att:5, lines:11
+time:2025-05-31 14:46:35, type:TEST, key:tres, c:0, att:5, lines:11
+time:2025-05-31 14:46:35, type:SIZE, key:tres, att:6, lines:11
+time:2025-05-31 14:47:15, type:TEST, key:tres, c:0, att:6, lines:11
+time:2025-05-31 14:47:39, type:TEST, key:tres, c:100, att:6, lines:11
+time:2025-05-31 14:47:39, type:SIZE, key:tres, att:7, lines:11

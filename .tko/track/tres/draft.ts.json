@@ -22,7 +22,19 @@
         },
         {
             "label": "2025-05-31_14-07-55",
-            "content": "const input = () => \"\"; // MODO_TESTE\nexport {};\n\nfunction main() {\n    let a = +input()\n    let b = +input()\n    let c = +input()\n    console.log(a + b + c + '\\r')\n}\nmain();\n"
+            "content": "@@ -149,22 +149,24 @@\n  + b + c\n-)%0A    \n+ + '%5Cr')\n %0A%7D%0Amain(\n"
+        },
+        {
+            "label": "2025-05-31_14-46-19",
+            "content": "@@ -145,18 +145,26 @@\n og(a + b\n-)%0A\n+ + c)%0A    \n %0A%7D%0Amain(\n"
+        },
+        {
+            "label": "2025-05-31_14-46-35",
+            "content": "@@ -149,12 +149,8 @@\n  + b\n- + c\n )%0A%0A%7D\n"
+        },
+        {
+            "label": "2025-05-31_14-47-39",
+            "content": "const input = () => \"\"; // MODO_TESTE\nexport {};\n\nfunction main() {\n    let a = +input()\n    let b = +input()\n    let c = +input()\n    console.log(a + b + c)\n\n}\nmain();\n"
         }
     ]
 }
