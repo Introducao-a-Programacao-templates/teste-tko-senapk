@@ -34,7 +34,7 @@ function show_diff(content_a: string, content_b: string) {
     save_file(file_a, content_a);
     save_file(file_b, content_b);
     console.log(
-        execSync(`tko -w 140 diff -de --path ${file_a} ${file_b}`).toString()
+        execSync(`tko -w 140 diff -d --path ${file_a} ${file_b}`).toString()
     );
     remove_file(file_a);
     remove_file(file_b);
@@ -48,7 +48,7 @@ function run_tko(folder: string) {
         total += 1;
         // testa primeiro se roda
         const output = execSync(
-            `tko -w 140 run -de ${folder}/cases.tio ${folder}/draft.ts`
+            `tko -w 140 run -d ${folder}/cases.tio ${folder}/draft.ts`
         ).toString();
         let lines = output.split('\n');
         if (output.split('\n').length === 3) {
