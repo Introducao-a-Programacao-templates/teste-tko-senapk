@@ -20,7 +20,6 @@ function save_file(path: string, content: string) {
 }
 function remove_file(path: string) {
     if (fs.existsSync(path)) {
-        // Verifica se o arquivo existe antes de tentar apagar
         fs.unlinkSync(path);
     }
 }
@@ -48,7 +47,7 @@ function run_tko(folder: string) {
         total += 1;
         // testa primeiro se roda
         const output = execSync(
-            `tko -w 140 run -d ${folder}/cases.tio ${folder}/draft.ts --eval`
+            `tko -w 140 run -d ${folder} --eval`
         ).toString();
         let lines = output.split('\n');
         let resume = lines[1]
