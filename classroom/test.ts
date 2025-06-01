@@ -61,7 +61,7 @@ function run_tko(folder: string) {
         }
         console.log(resume);
     } catch (e) {
-        console.log(`❌ ${folder}: Erro: ` + e.message);
+        console.log(`❌ ${folder}: Erro: ` + e.message + e.output);
     }
 }
 
