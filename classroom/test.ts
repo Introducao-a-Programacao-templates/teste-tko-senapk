@@ -48,7 +48,7 @@ function run_tko(folder: string) {
         total += 1;
         // testa primeiro se roda
         const output = execSync(
-            `tko -w 140 run -d ${folder} --eval`
+            `tko -w 140 run -d ${folder}/cases.tio ${folder}/draft.ts --eval`
         ).toString();
         let lines = output.split('\n');
         let resume = lines[1]
