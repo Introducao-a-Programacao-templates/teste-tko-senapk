@@ -47,18 +47,24 @@ function run_tko(folder: string) {
         total += 1;
         // testa primeiro se roda
         const output = execSync(
-            `tko -w 140 run -d ${folder} --eval --quiet`
+            // eval mostra tempo, execucões e tamanho do arquivo
+            // compact evita mostrar nomes dos testes
+            //--none(nenhum diff), --all(todos os difs), default(first diff)
+            `tko -w 140 run -d ${folder} --eval --compact --none`
         ).toString();
         let lines = output.split('\n');
-        let resume = lines[1]
+        lines.shift()
+        lines.pop()
+        let resume = lines[0]
         let parts: string[] = resume.split(" ")
         if (parts[parts.length - 1] == "100%") {
             passed++;
             console.log(`✅ ${folder}: Saída do código é a esperada.`);
+            console.log(resume)
         } else {
             console.log( `❌ ${folder}: Saída do código não é a esperada.` );
+            console.log(lines.join("\n"));
         }
-        console.log(resume);
     } catch (e) {
         console.log(`❌ ${folder}: Erro: ` + e.message + e.output);
     }
